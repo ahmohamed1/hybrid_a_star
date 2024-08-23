@@ -165,7 +165,7 @@ int main()
 		y_p.push_back(it->y);
 		theta_p.push_back(it->theta);
 	}
-	plot.process(x_p, y_p, theta_p, mapp, true);
+	plot.process(x_p, y_p, theta_p, mapp, false);
 	return 0;
 }
 
